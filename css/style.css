@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+  html {
+  font-size: 10px;
+}
+body {
+  background-color: #D3D3D3;
+}
+p {
+  font-size: 1.8rem;
+  margin-top: .5rem;
+  line-height: 1.3;
+}
+h1{
+  font-size: 2.4rem;
+  color: #A9A9A9;
+}
+.container {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 90%;
+}
+header{
+  background-color: #8A378A;
+}
+section {
+  background-color: #ffffff;
+  color: #8A378A;
+  margin-top: 1rem;
+  padding: 10rem 2rem;
+}
+@media screen and (min-width: 1000px){
+  .container {
+    width: 70rem;
+    }
+}
+@media screen and (min-width: 768px){
+  .container {
+    width: 98rem;
+    }
+}
