@@ -40,6 +40,7 @@ header{
 }
 html {
 font-size: 10px;
+font-family: "Lato", sans-serif;
 }
 p {
   font-size: 1.8rem;
@@ -75,4 +76,15 @@ section {
   background-color:#F0F0F0;
   padding: 2rem 2rem;
   margin-top: 2rem;
+}
+.stylednav-ul {
+  list-style-type: none;
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 1rem;
+}
+li {
+  display: inline;
+  font-size: 1.8rem;
 }
